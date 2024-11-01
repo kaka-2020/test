@@ -30,57 +30,17 @@
 
 pip install -r requirements.txt
 
-运行项目
 
-1. 生成样例数据
-运行 generate_data.py 脚本生成样例数据并保存为 raw_data.csv 文件。
-
-python src/generate_data.py
-2. 数据预处理
-运行 data_preparation.py 脚本读取并预处理生成的数据。
+<img width="559" alt="image" src="https://github.com/user-attachments/assets/37e75d68-d58d-45e4-840d-51efd0753928">
 
 
-python src/data_preparation.py
-3. 特征工程
-运行 feature_engineering.py 脚本创建新的特征。
-
-
-python src/feature_engineering.py
-4. 模型训练
-运行 model_training.py 脚本使用HDBSCAN进行聚类。
-
-
-python src/model_training.py
-5. 结果评估
-运行 evaluation.py 脚本评估聚类效果并可视化结果。
-python src/evaluation.py
+<img width="391" alt="image" src="https://github.com/user-attachments/assets/a5e9781e-43a5-4fc5-959d-45562a9e9501">
 
 
 
+**项目结论
+轮廓系数在0.6-0.75之间，整体能满足客户的需求
 
-
-**项目说明
-
-generate_data.py
-功能: 生成样例数据并保存为CSV文件。
-输入: 无
-输出: data/raw_data.csv
-data_preparation.py
-功能: 读取并预处理生成的数据。
-输入: data/raw_data.csv
-输出: data/prepared_data.csv
-feature_engineering.py
-功能: 创建新的特征。
-输入: data/prepared_data.csv
-输出: data/data_with_features.csv
-model_training.py
-功能: 使用HDBSCAN进行聚类。
-输入: data/data_with_features.csv
-输出: data/clustered_data.csv
-evaluation.py
-功能: 评估聚类效果并可视化结果。
-输入: data/clustered_data.csv
-输出: 控制台输出和可视化图表
 
 **一些截图**
 <img width="1331" alt="截屏2024-11-01 14 20 42" src="https://github.com/user-attachments/assets/49ef5db0-64b2-47e5-8ddb-a6bfd35065ac">
