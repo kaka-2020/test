@@ -9,18 +9,8 @@
 ## 目录结构
 
 **代码结构：
-
-population_behavior_model/
-├── data/
-│   └── raw_data.csv
-├── src/
-│   ├── generate_data.py
-│   ├── data_preparation.py
-│   ├── feature_engineering.py
-│   ├── model_training.py
-│   └── evaluation.py
-├── requirements.txt
-└── README.md
+ 
+<img width="287" alt="image" src="https://github.com/user-attachments/assets/05cc0963-8679-491a-94da-30eea81bde40">
 
 
 ## 依赖项
