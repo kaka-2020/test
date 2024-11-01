@@ -26,4 +26,3 @@ df = pd.DataFrame(data)
 # 保存为CSV文件
 df.to_csv('../data/raw_data.csv', index=False)
 
-print("Sample data generated and saved to 'raw_data.csv'")
